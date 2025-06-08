@@ -1,11 +1,11 @@
-﻿using UnityEditor;
+﻿using RossoForge.Toolbar.Editor.Callbacks;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.ComponentModel;
+using System.Linq;
 using System.Reflection;
+using UnityEditor;
 using UnityEngine;
-using RossoForge.Toolbar.Editor.Callbacks;
 
 namespace RossoForge.Toolbar.Editor.Editors
 {
