@@ -1,7 +1,7 @@
-using RossoForge.Toolbar.Editor.Callbacks;
+using Rossoforge.Toolbar.Editor.Callbacks;
 using UnityEngine;
 
-namespace RossoForge.Toolbar.Editor.Profiles.Buttons
+namespace Rossoforge.Toolbar.Editor.Profiles.Buttons
 {
     public abstract class ButtonProfile : ScriptableObject
     {
