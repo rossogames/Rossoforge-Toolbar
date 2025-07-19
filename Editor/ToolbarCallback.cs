@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace RossoForge.Toolbar.Editor
+namespace Rossoforge.Toolbar.Editor
 {
     public static class ToolbarCallback
     {

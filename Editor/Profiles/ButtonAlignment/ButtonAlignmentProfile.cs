@@ -1,7 +1,7 @@
-﻿using RossoForge.Toolbar.Editor.Profiles.Buttons;
+﻿using Rossoforge.Toolbar.Editor.Profiles.Buttons;
 using UnityEngine;
 
-namespace RossoForge.Toolbar.Editor.Profiles.Alignments
+namespace Rossoforge.Toolbar.Editor.Profiles.Alignments
 {
     public abstract class ButtonAlignmentProfile : ScriptableObject
     {

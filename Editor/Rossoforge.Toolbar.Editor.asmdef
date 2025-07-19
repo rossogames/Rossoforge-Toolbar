@@ -1,6 +1,6 @@
 {
-    "name": "RossoForge.Toolbar.Editor",
-    "rootNamespace": "RossoForge.Toolbar.Editor",
+    "name": "Rossoforge.Toolbar.Editor",
+    "rootNamespace": "Rossoforge.Toolbar.Editor",
     "references": [],
     "includePlatforms": [
         "Editor"

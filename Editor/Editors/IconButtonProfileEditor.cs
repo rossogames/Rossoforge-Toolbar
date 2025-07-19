@@ -1,9 +1,9 @@
-using RossoForge.Toolbar.Editor.Profiles.Buttons;
-using RossoForge.Toolbar.Editor.Windows;
+using Rossoforge.Toolbar.Editor.Profiles.Buttons;
+using Rossoforge.Toolbar.Editor.Windows;
 using UnityEditor;
 using UnityEngine;
 
-namespace RossoForge.Toolbar.Editor.Editors
+namespace Rossoforge.Toolbar.Editor.Editors
 {
 
     [CustomEditor(typeof(IconButtonProfile))]

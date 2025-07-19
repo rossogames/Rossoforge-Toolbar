@@ -1,11 +1,11 @@
-using RossoForge.Toolbar.Editor.Profiles.Alignments;
-using RossoForge.Toolbar.Editor.Profiles.Buttons;
+using Rossoforge.Toolbar.Editor.Profiles.Alignments;
+using Rossoforge.Toolbar.Editor.Profiles.Buttons;
 using System;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace RossoForge.Toolbar.Editor
+namespace Rossoforge.Toolbar.Editor
 {
     [InitializeOnLoad]
     public static class ToolbarDrawer

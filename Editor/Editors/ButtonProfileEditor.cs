@@ -1,4 +1,4 @@
-﻿using RossoForge.Toolbar.Editor.Callbacks;
+﻿using Rossoforge.Toolbar.Editor.Callbacks;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,7 +7,7 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace RossoForge.Toolbar.Editor.Editors
+namespace Rossoforge.Toolbar.Editor.Editors
 {
     public abstract class ButtonProfileEditor : UnityEditor.Editor
     {
