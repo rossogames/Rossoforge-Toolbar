@@ -134,13 +134,27 @@ namespace Rossoforge.Toolbar.Editor.Editors
 
             _buttonCallbackInfo = new List<ButtonCallbackInfo>();
 
-            var types =
-                AppDomain.CurrentDomain.GetAssemblies()
-                .SelectMany(assembly => assembly.GetTypes())
-                .Where(type => type.IsClass && !type.IsAbstract && typeof(ButtonCallback).IsAssignableFrom(type))
-                .ToList();
+            var lstTypes = new List<Type>();
 
-            foreach (var type in types)
+            var assemblies = AppDomain.CurrentDomain.GetAssemblies();
+            foreach (var assembly in assemblies)
+            {
+                Type[] safeTypes;
+                try
+                {
+                    safeTypes = assembly.GetTypes();
+                }
+                catch (ReflectionTypeLoadException ex)
+                {
+                    safeTypes = ex.Types.Where(t => t != null).ToArray();
+                }
+
+                foreach (var type in safeTypes)
+                    if (type.IsClass && !type.IsAbstract && typeof(ButtonCallback).IsAssignableFrom(type))
+                        lstTypes.Add(type);
+            }
+
+            foreach (var type in lstTypes)
             {
                 var attribute = type.GetCustomAttribute<DescriptionAttribute>();
                 string description = attribute?.Description ?? string.Empty;
