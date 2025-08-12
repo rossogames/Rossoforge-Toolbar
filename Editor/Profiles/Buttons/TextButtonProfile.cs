@@ -2,7 +2,7 @@
 
 namespace Rossoforge.Toolbar.Editor.Profiles.Buttons
 {
-    [CreateAssetMenu(fileName = nameof(TextButtonProfile), menuName = "RossoForge/Toolbar/Buttons/Text Button")]
+    [CreateAssetMenu(fileName = nameof(TextButtonProfile), menuName = "Rossoforge/Toolbar/Buttons/Text Button")]
     public class TextButtonProfile : ButtonProfile
     {
         [SerializeField]

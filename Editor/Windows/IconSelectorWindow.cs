@@ -2120,7 +2120,7 @@ namespace Rossoforge.Toolbar.Editor.Windows
 
         private Action<string> OnIconSelected { get; set; }
 
-        [MenuItem("RossoForge/Toolbar/" + _title)]
+        [MenuItem("Rossoforge/Toolbar/" + _title)]
         public static void ShowWindows()
         {
             IconSelectorWindows window = GetWindow<IconSelectorWindows>();
