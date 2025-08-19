@@ -6,6 +6,7 @@ namespace Rossoforge.Toolbar.Editor.Windows
 {
     public class IconSelectorWindows : EditorWindow
     {
+        #region Icons
         private string[] _iconNames = new[]
         {
             "_Help@2x",
@@ -2109,6 +2110,7 @@ namespace Rossoforge.Toolbar.Editor.Windows
             "winbtn_win_rest_a",
             "winbtn_win_rest_h"
         };
+        #endregion
 
         private const int iconSize = 32;
         private const int padding = 4;
@@ -2120,7 +2122,7 @@ namespace Rossoforge.Toolbar.Editor.Windows
 
         private Action<string> OnIconSelected { get; set; }
 
-        [MenuItem("Rossoforge/Toolbar/" + _title)]
+        [MenuItem("Tools/Rossoforge/Toolbar/" + _title)]
         public static void ShowWindows()
         {
             IconSelectorWindows window = GetWindow<IconSelectorWindows>();
