@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Rossoforge.Toolbar.Editor.Profiles.Buttons
 {
-    [CreateAssetMenu(fileName = nameof(IconButtonProfile), menuName = "RossoForge/Toolbar/Buttons/Icon Button")]
+    [CreateAssetMenu(fileName = nameof(IconButtonProfile), menuName = "Rossoforge/Toolbar/Buttons/Icon Button")]
     public class IconButtonProfile : ButtonProfile
     {
         [SerializeField]
