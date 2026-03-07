@@ -18,6 +18,22 @@ With Rossoforge-Toolbar, you can:
 - Save time and improve productivity with reusable button definitions.
 
 #
+
+
+---
+
+## Compatibility
+
+**Package version:** 1.3
+
+This version is compatible with **Unity versions between 2022 and 6.2**.
+
+Starting from **Unity 6.3**, Unity introduced changes in the **Editor API** that break compatibility with this version of the package.
+
+If you are using **Unity 6.3 or newer**, please use a **more recent version of Rossoforge-Toolbar**.
+
+---
+
 This package is part of the **Rossoforge** suite, designed to streamline and enhance Unity development workflows.
 
 Developed by Agustin Rosso
