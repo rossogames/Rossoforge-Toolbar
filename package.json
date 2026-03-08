@@ -20,11 +20,6 @@
       "displayName": "Load & Play",
       "description": "Configuration sample for 'Load & Play', open the indicated scene and plays Unity editor",
       "path": "Samples~/LoadAndPlay"
-    },
-    {
-      "displayName": "Custom button Callback",
-      "description": "Button callback script that allows you to add custom functionality to the button click",
-      "path": "Samples~/CustomCallback"
     }
   ]
 }
