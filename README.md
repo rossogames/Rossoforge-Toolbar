@@ -52,6 +52,7 @@ public static class CustomToolbarDrawer
 
 - Version: 1.3.0
 - Watch tutorial on: [https://www.youtube.com/watch?v=A7qKsfk7OhU](https://www.youtube.com/watch?v=A7qKsfk7OhU)
+- https://github.com/rossogames/Rossoforge-Toolbar/tree/release/v1.3.0
 
 ---
 This package is part of the **Rossoforge** suite, designed to streamline and enhance Unity development workflows.
